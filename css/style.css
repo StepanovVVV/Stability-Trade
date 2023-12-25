@@ -685,9 +685,7 @@ body {
   font-size: 2rem !important;
   padding: 5rem 0 !important;
   margin-left: 0 !important;
-  top: -0.5rem !important;
 }
-
 @media only screen and (max-width: 1198.98px) {
   .btn-contac {
     top: -0.5rem !important;
