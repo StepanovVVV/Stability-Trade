@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Stability Trade</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="header__container">
+                <a href="#home" class="header__logo">
+                    <img src="./icons/logo.png" class="img" alt="LOGO">
+                </a>
+                <div class="header__burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header__menu width-max">
+                    <nav>
+                        <ul class="header__links links">
+                            <li>
+                                <a href="#!" class="subtitle none">Site menu</a>
+                            </li>
+                            <li>
+                                <a href="#about-us" class="header__link-1 link">About us</a>
+                                <div class="decor-line"></div>
+                                <div class="circle"></div>
+                            </li>
+                            <li>
+                                <a href="#services" class="header__link-2 link">We provide</a>
+                                <div class="decor-line"></div>
+                                <div class="circle"></div>
+                            </li>
+                            <li>
+                                <a href="#offer" class="header__link-3 link">Offers today</a>
+                                <div class="decor-line"></div>
+                                <div class="circle"></div>
+                            </li>
+                            <li>
+                                <a href="#partners" class="header__link-4 link">For partners</a>
+                                <div class="decor-line"></div>
+                                <div class="circle"></div>
+                            </li>
+                            <li class="none">
+                                <ul class="header__links header__links-2 links">
+                                    <li>
+                                        <a href="tel:+380000000000">+38 (000) 000 00 00</a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+380000000000">+38 (000) 000 00 00</a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+380000000000">+38 (000) 000 00 00</a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:info@example.com">info@example.com</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="none">
+                                <div class="control">
+                                    <a href="#!">
+                                        <div class="control__icon">
+                                            <img src="icons/social/facebook.svg" class="img" alt="facebook">
+                                        </div>
+                                    </a>
+                                    <div class="header__close" id="close">
+                                        Close
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__menu width-max">
+                    <nav>
+                        <ul class="header__links header__contact links">
+                            <li>
+                                <a href="#footer" class="btn-contac">Contacts</a>
+                                <div class="decor-line"></div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="language">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="language__btn-1 language__btn">Eng</a>
+                        </li>
+                        <li>
+                            <a href="index-ukr.html" class="language__btn-2">Ukr</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main class="page">
+            <section class="home" id="home">
+                <div class="video-bg">
+                    <video autoplay loop muted playsinline>
+                        <source src="video/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="home__container">
+                    <h1>Stability Trade</h1>
+                    <p>The best contracts for the sale and purchase of agricultural products.</p>
+                    <div class="home__links links-btn">
+                        <a href="#about-us" class="btn link">About us</a>
+                        <a href="#partners" class="btn btn-2 link">For partners</a>
+                    </div>
+                    <div class="home__btns btns">
+                        <a href="#!" class="btns__social social">
+                            <div class="btns__icon social__icon">
+                                <img src="icons/social/facebook.svg" class="img" alt="facebook">
+                            </div>
+                            <p>Our Facebook</p>
+                        </a>
+                        <a href="#!" class="btns__social social">
+                            <div class="btns__icon social__icon">
+                                <img src="icons/social/telegram.svg" class="img" alt="telegram">
+                            </div>
+                            <p>Sale of grain</p>
+                        </a>
+                        <a href="#!" class="btns__social social">
+                            <div class="btns__icon social__icon">
+                                <img src="icons/social/telegram.svg" class="img" alt="telegram">
+                            </div>
+                            <p>Purchase of grain</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="our-service section" id="services">
+                <div class="block">
+                    <div class="block__container">
+                        <div class="block__title">
+                            <h2>Our Services</h2>
+                        </div>
+                    </div>
+                    <div class="block__container" data-aos="fade-left">
+                        <div class="block__info">
+                            <h3>For agricultural producers:</h3>
+                            <p>
+                                Stability Trade aids agriculturists in marketing their produce under the most favorable
+                                conditions, ensuring profitable returns.
+                            </p>
+                            <p>
+                                Our seasoned professionals analyze market dynamics to guide you in establishing the most
+                                advantageous agreements.
+                            </p>
+                            <p>
+                                Our collaboration with numerous trade corporations enables us to secure the most
+                                competitive
+                                rates for our clients in the agricultural and processing sectors, both domestically in
+                                Ukraine and internationally. We provide contracts under terms such as FCA, CPT, FOB,
+                                DAP,
+                                CIF, among others.
+                            </p>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/01.png" class="img" alt="handshake">
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block__container flex-direction-row-reverse" data-aos="fade-right">
+                        <div class="block__info">
+                            <h3>For processors:</h3>
+                            <p>
+                                Stability Trade assists processing units in acquiring raw materials and effectively
+                                marketing their processed goods. Our proficient team will guide you in finalizing the
+                                most beneficial contracts for a variety of products such as sunflower meal, soybeans,
+                                sunflower oil, rapeseed oil, soybean oil, and more, ensuring you receive the most
+                                favorable terms.
+                            </p>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/02.png" class="img" alt="oil">
+                        </div>
+                    </div>
+                </div>
+                <div class="block" data-aos="fade-left">
+                    <div class="block__container">
+                        <div class="block__info">
+                            <h3>For traders:</h3>
+                            <p>
+                                Partnering with Stability Trade allows grain merchants to secure the needed quantities
+                                of high-quality grain at fair prices and within the desired timeframe. With our
+                                extensive network of farmers across Ukraine, we facilitate the negotiation of optimal
+                                contracts for the procurement of corn, wheat, barley, soybeans, rapeseed, and other
+                                crops, as well as their derivatives.
+                            </p>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/03.png" class="img" alt="wheat processing">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="we-offer section color-bg-1" id="offer">
+                <div class="block">
+                    <div class="block__container">
+                        <div class="block__title">
+                            <h2>We offer</h2>
+                        </div>
+                    </div>
+                    <div class="block__container" data-aos="fade-left">
+                        <div class="block__info">
+                            <h3>Buy today:</h3>
+                            <p>
+                                Whether you're an agriculturist, a processor, or a trader dealing in agricultural
+                                commodities, we provide a platform for you to market your products at competitive
+                                prices. Check out our Telegram channel for the latest buying proposals from our
+                                associates, and our team of experts will guide you through the specifics and conditions
+                                of the contracts.
+                            </p>
+                            <p>
+                                If the proposals on our channel don't meet your requirements, feel free to reach out to
+                                us and we'll ensure your products are sold at a satisfactory price.
+                            </p>
+                            <p>
+                                Click on the link to proceed:
+                            </p>
+                            <a href="#!" class="block__social social">
+                                <div class="social__icon">
+                                    <img src="icons/social/telegram.svg" class="img" alt="telegram">
+                                </div>
+                                <p>Purchase of grain</p>
+                            </a>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/04.png" class="img" alt="grains">
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block__container flex-direction-row-reverse" data-aos="fade-right">
+                        <div class="block__info">
+                            <h3>On sale today:</h3>
+                            <p>
+                                Explore the latest offerings from our network of agricultural producers and processors
+                                on our Telegram channel. Here, youвЂ™ll find up-to-date details on product availability,
+                                quantities, quality, and sales terms. Our knowledgeable team is ready to provide
+                                guidance and answer any queries you may have. If you canвЂ™t find a suitable offer,
+                                reach out to our manager to place a custom order, and weвЂ™ll assist you in fulfilling
+                                it.
+                            </p>
+                            <p>
+                                Click on the link to view the offers:
+                            </p>
+                            <a href="#!" class="block__social social">
+                                <div class="social__icon">
+                                    <img src="icons/social/telegram.svg" class="img" alt="telegram">
+                                </div>
+                                <p>Sale of grain</p>
+                            </a>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/05.png" class="img" alt="wheat">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="partners section" id="partners">
+                <div class="block">
+                    <div class="block__container">
+                        <div class="block__title">
+                            <h2>Partners</h2>
+                        </div>
+                    </div>
+                    <div class="block__container" data-aos="fade-left">
+                        <div class="block__info">
+                            <p>
+                                Stability Trade welcomes collaborations with all enterprises, both local and
+                                international, seeking advantageous transactions in the agricultural sector. Partnering
+                                with us enhances your success by broadening your scope in the agricultural trade,
+                                encompassing dealings with EU nations and globally.
+                            </p>
+                            <p>
+                                Stability Trade is committed to aiding farmers, traders, processors, brokers, and other
+                                businesses in realizing their objectives in both the domestic and global markets.
+                            </p>
+                            <p>
+                                For partnership inquiries, feel free to reach out to us via email, messenger, or phone -
+                                <a href="#footer">Contacts</a>
+                            </p>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/06.png" class="img" alt="hands">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-us section color-bg-1" id="about-us">
+                <div class="block">
+                    <div class="block__container">
+                        <div class="block__title">
+                            <h2>About us</h2>
+                        </div>
+                    </div>
+                    <div class="block__container" data-aos="fade-left">
+                        <div class="block__info">
+                            <p>
+                                Stability Trade is a brokerage firm dedicated to securing the most advantageous
+                                contracts for buying and selling agricultural commodities, both within Ukraine and
+                                internationally. We offer all-inclusive services and negotiate the best agreements,
+                                contributing to the profitability of your enterprise. Our collaborations extend to
+                                traders, agriculturists, processors, and intermediaries, ensuring mutually beneficial
+                                contracts. Customer satisfaction is our primary objective, and our team of specialists
+                                is committed to meeting your requirements effectively. Partnering with Stability Trade
+                                Ukraine paves the way for your success!
+                            </p>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/07.png" class="img" alt="team">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="quote section">
+                <div class="block">
+                    <div class="block__container">
+                        <div class="quote__info block__info">
+                            <p>
+                                Collaborating with Stability Trade promises success and a positive experience. We
+                                guarantee lucrative deals, effective execution of orders, and a professional attitude
+                                towards each associate. Opt for Stability Trade to secure profitable agreements and
+                                broaden your commercial prospects.
+                            </p>
+                            <div class="block__img-bg">
+                                <img src="icons/commas.png" class="img" alt="commas">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.7089804455027!2d30.46162547605675!3d50.39062339167032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c91f8b17c85b%3A0x4b03b4dc93fb0666!2z0LLRg9C70LjRhtGPINCh0YLQtdC_0LDQvdCwINCg0YPQtNC90LjRhtGM0LrQvtCz0L4sIDLQsSwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1703261838853!5m2!1sru!2sua"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </main>
+
+        <footer class="footer" id="footer">
+            <div class="footer__container">
+                <div class="footer__items footer__desk">
+                    <div class="footer__item">
+                        <div class="footer__logo">
+                            <img src="icons/logo.png" class="img" alt="logo">
+                        </div>
+                        <h4>Follow us</h4>
+                        <a href="#!" class="footer__social block__social social">
+                            <div class="footer__social-icon social__icon">
+                                <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_4_2)">
+                                        <path
+                                            d="M69.2932 120V65.2664H87.6576L90.4129 43.9294H69.2932V30.3088C69.2932 24.1332 71.0011 19.9246 79.867 19.9246L91.1562 19.9199V0.83538C89.2039 0.581672 82.5023 0 74.7023 0C58.4147 0 47.2639 9.94179 47.2639 28.1956V43.9294H28.8438V65.2664H47.2639V120H69.2932Z"
+                                            fill="#010002" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <p>Our Facebook</p>
+                        </a>
+                    </div>
+                    <div class="footer__item">
+                        <h4>SITE MENU</h4>
+                        <ul class="links">
+                            <li>
+                                <a href="#about-us" class="link">About us</a>
+                                <div class="decor-line"></div>
+                            </li>
+                            <li>
+                                <a href="#services" class="link">We provide</a>
+                                <div class="decor-line"></div>
+                            </li>
+                            <li>
+                                <a href="#offer" class="link">Offers today</a>
+                                <div class="decor-line"></div>
+                            </li>
+                            <li>
+                                <a href="#partners" class="link">For partners</a>
+                                <div class="decor-line"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <h4>Contacts</h4>
+                        <div class="footer__label">Phones:</div>
+                        <ul class="footer__links links">
+                            <li>
+                                <a href="tel:380000000000" class="text-1">+38 (000) 000 00 00</a>
+                                <div class="decor-line"></div>
+                                <div class="footer__icon">
+                                    <img src="icons/phone.svg" class="img" alt="phone">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="tel:380000000000" class="text-1">+38 (000) 000 00 00</a>
+                                <div class="decor-line"></div>
+                                <div class="footer__icon">
+                                    <img src="icons/phone.svg" class="img" alt="phone">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="tel:380000000000" class="text-1">+38 (000) 000 00 00</a>
+                                <div class="decor-line"></div>
+                                <div class="footer__icon">
+                                    <img src="icons/phone.svg" class="img" alt="phone">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer__label">E-mail address:</div>
+                        <ul class="footer__links links">
+                            <li>
+                                <a href="mailto:info@example.com" class="text-1">info@example.com</a>
+                                <div class="decor-line"></div>
+                                <div class="footer__icon">
+                                    <img src="icons/email.svg" class="img" alt="email">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer__label">Office address:</div>
+                        <ul class="footer__links links">
+                            <li>
+                                <a href="#!" class="text-1">Aur Adress</a>
+                                <div class="decor-line"></div>
+                                <div class="footer__icon">
+                                    <img src="icons/geo.svg" class="img" alt="geo">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__mob">
+                    <div id="accordion" class="footer__accordion accordion">
+                        <div class="footer__item accordion__item">
+                            <h4 class="accordion__header">
+                                Contacts
+                            </h4>
+                            <div class="accordion__body">
+                                <div class="accordion__content">
+                                    <div class="footer__label">Phones:</div>
+                                    <ul class="footer__links links">
+                                        <li>
+                                            <a href="tel:380000000000" class="text-1">+38 (000) 000 00 00</a>
+                                            <div class="decor-line"></div>
+                                            <div class="footer__icon">
+                                                <img src="icons/phone.svg" class="img" alt="phone">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="tel:380000000000" class="text-1">+38 (000) 000 00 00</a>
+                                            <div class="decor-line"></div>
+                                            <div class="footer__icon">
+                                                <img src="icons/phone.svg" class="img" alt="phone">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="tel:380000000000" class="text-1">+38 (000) 000 00 00</a>
+                                            <div class="decor-line"></div>
+                                            <div class="footer__icon">
+                                                <img src="icons/phone.svg" class="img" alt="phone">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="footer__label">E-mail address:</div>
+                                    <ul class="footer__links links">
+                                        <li>
+                                            <a href="mailto:info@example.com" class="text-1">info@example.com</a>
+                                            <div class="decor-line"></div>
+                                            <div class="footer__icon">
+                                                <img src="icons/email.svg" class="img" alt="email">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="footer__label">Office address:</div>
+                                    <ul class="footer__links links">
+                                        <li>
+                                            <a href="#!" class="text-1">Aur Adress</a>
+                                            <div class="decor-line"></div>
+                                            <div class="footer__icon">
+                                                <img src="icons/geo.svg" class="img" alt="geo">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__item accordion__item">
+                            <h4 class="accordion__header">
+                                SITE MENU
+                            </h4>
+                            <div class="accordion__body">
+                                <div class="accordion__content">
+                                    <ul class="links">
+                                        <li>
+                                            <a href="#about-us" class="link">About us</a>
+                                            <div class="decor-line"></div>
+                                        </li>
+                                        <li>
+                                            <a href="#services" class="link">We provide</a>
+                                            <div class="decor-line"></div>
+                                        </li>
+                                        <li>
+                                            <a href="#offer" class="link">Offers today</a>
+                                            <div class="decor-line"></div>
+                                        </li>
+                                        <li>
+                                            <a href="#partners" class="link">For partners</a>
+                                            <div class="decor-line"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__item accordion__item">
+                            <h4 class="accordion__header">
+                                Follow us
+                            </h4>
+                            <div class="accordion__body">
+                                <div class="accordion__content">
+                                    <a href="#!" class="footer__social block__social social">
+                                        <div class="footer__social-icon social__icon">
+                                            <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_4_2)">
+                                                    <path
+                                                        d="M69.2932 120V65.2664H87.6576L90.4129 43.9294H69.2932V30.3088C69.2932 24.1332 71.0011 19.9246 79.867 19.9246L91.1562 19.9199V0.83538C89.2039 0.581672 82.5023 0 74.7023 0C58.4147 0 47.2639 9.94179 47.2639 28.1956V43.9294H28.8438V65.2664H47.2639V120H69.2932Z"
+                                                        fill="#010002" />
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <p>Our Facebook</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copy">
+                    <p>&copy; 2023 All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#header" class="up up_hide">
+        <img src="icons/arrow.svg" class="img" alt="arrow">
+    </a>
+
+    <script src="js/accordion.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

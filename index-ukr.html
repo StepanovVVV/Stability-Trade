@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>git add README.md</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="header__container">
+                <a href="#home" class="header__logo">
+                    <img src="./icons/logo.png" class="img" alt="LOGO">
+                </a>
+                <div class="header__burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header__menu width-max">
+                    <nav>
+                        <ul class="header__links links">
+                            <li>
+                                <a href="#!" class="subtitle none">Меню сайту</a>
+                            </li>
+                            <li>
+                                <a href="#about-us" class="header__link-1 link">Про нас</a>
+                                <div class="decor-line"></div>
+                                <div class="circle"></div>
+                            </li>
+                            <li>
+                                <a href="#services" class="header__link-2 link">Наші Послуги</a>
+                                <div class="decor-line"></div>
+                                <div class="circle"></div>
+                            </li>
+                            <li>
+                                <a href="#offer" class="header__link-3 link">Ми пропонуємо</a>
+                                <div class="decor-line"></div>
+                                <div class="circle"></div>
+                            </li>
+                            <li>
+                                <a href="#partners" class="header__link-4 link">Партнерам</a>
+                                <div class="decor-line"></div>
+                                <div class="circle"></div>
+                            </li>
+                            <li class="none">
+                                <ul class="header__links header__links-2 links">
+                                    <li>
+                                        <a href="tel:+380000000000">+38 (000) 000 00 00</a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+380000000000">+38 (000) 000 00 00</a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+380000000000">+38 (000) 000 00 00</a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:info@example.com">info@example.com</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="none">
+                                <div class="control">
+                                    <a href="#!">
+                                        <div class="control__icon">
+                                            <img src="icons/social/facebook.svg" class="img" alt="facebook">
+                                        </div>
+                                    </a>
+                                    <div class="header__close" id="close">
+                                        Закрити
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__menu width-max">
+                    <nav>
+                        <ul class="header__links header__contact links">
+                            <li>
+                                <a href="#footer" class="btn-contac">Контакти</a>
+                                <div class="decor-line"></div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="language">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="language__btn-1 language__btn language__ukr-1">Eng</a>
+                        </li>
+                        <li>
+                            <a href="index-ukr.html" class="language__btn-2 language__ukr-2">Ukr</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main class="page">
+            <section class="home" id="home">
+                <div class="video-bg">
+                    <video autoplay loop muted playsinline>
+                        <source src="video/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="home__container">
+                    <h1>Stability Trade</h1>
+                    <p>Найкращі контракти з купівлі-продажу продукції сільського господарства.</p>
+                    <div class="home__links links-btn">
+                        <a href="#about-us" class="btn link">Про нас</a>
+                        <a href="#partners" class="btn btn-2 link">Партнерство</a>
+                    </div>
+                    <div class="home__btns btns">
+                        <a href="#!" class="btns__social social">
+                            <div class="btns__icon social__icon">
+                                <img src="icons/social/facebook.svg" class="img" alt="facebook">
+                            </div>
+                            <p>Наш Facebook</p>
+                        </a>
+                        <a href="#!" class="btns__social social">
+                            <div class="btns__icon social__icon">
+                                <img src="icons/social/telegram.svg" class="img" alt="telegram">
+                            </div>
+                            <p>Продаж зерна</p>
+                        </a>
+                        <a href="#!" class="btns__social social">
+                            <div class="btns__icon social__icon">
+                                <img src="icons/social/telegram.svg" class="img" alt="telegram">
+                            </div>
+                            <p>Купівля зерна</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="our-service section" id="services">
+                <div class="block">
+                    <div class="block__container">
+                        <div class="block__title">
+                            <h2>Наші Послуги</h2>
+                        </div>
+                    </div>
+                    <div class="block__container" data-aos="fade-left">
+                        <div class="block__info">
+                            <h3>Для сільгоспвиробників:</h3>
+                            <p>
+                                Стабільність Торгівля допомагає аграріям продавати свою продукцію на найвигідніших
+                                умовах, забезпечуючи прибуткові прибутки.
+                            </p>
+                            <p>
+                                Наші досвідчені професіонали аналізують динаміку ринку, щоб допомогти вам укласти
+                                найвигідніші угоди.
+                            </p>
+                            <p>
+                                Oнаша співпраця з численними торговими корпораціями дозволяє нам забезпечити максимальну
+                                безпеку
+                                змагальний ставки для наших клієнтів у сільськогосподарському та переробному секторах,
+                                як усередині країни
+                                Україні та за кордоном. Ми надаємо контракти на таких умовах, як FCA, CPT, FOB, DAP,
+                                CIF, серед інших.
+                            </p>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/01.png" class="img" alt="handshake">
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block__container flex-direction-row-reverse" data-aos="fade-right">
+                        <div class="block__info">
+                            <h3>Для процесорів:</h3>
+                            <p>
+                                Stability Trade допомагає переробним підрозділам придбати сировину та ефективно
+                                продавати свої перероблені товари. Наша досвідчена команда допоможе вам укласти
+                                найвигідніші контракти на різноманітні продукти, такі як соняшниковий шрот, соєві боби,
+                                соняшникова олія, рапсова олія, соєва олія тощо, гарантуючи, що ви отримаєте
+                                найвигідніші умови.
+                            </p>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/02.png" class="img" alt="oil">
+                        </div>
+                    </div>
+                </div>
+                <div class="block" data-aos="fade-left">
+                    <div class="block__container">
+                        <div class="block__info">
+                            <h3>Для трейдерів:</h3>
+                            <p>
+                                Партнерство з Stability Trade дозволяє торговцям зерном забезпечити необхідну кількість
+                                високоякісного зерна за справедливими цінами та в бажані терміни. Завдяки розгалуженій
+                                мережі фермерів по всій Україні ми сприяємо укладанню оптимальних контрактів на
+                                закупівлю кукурудзи, пшениці, ячменю, сої, ріпаку та інших культур, а також продуктів їх
+                                переробки.
+                            </p>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/03.png" class="img" alt="wheat processing">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="we-offer section color-bg-1" id="offer">
+                <div class="block">
+                    <div class="block__container">
+                        <div class="block__title">
+                            <h2>Ми пропонуємо</h2>
+                        </div>
+                    </div>
+                    <div class="block__container" data-aos="fade-left">
+                        <div class="block__info">
+                            <h3>Купити сьогодні:</h3>
+                            <p>
+                                Незалежно від того, чи є ви аграрієм, переробником чи трейдером сільськогосподарських
+                                товарів, ми пропонуємо вам платформу для продажу своєї продукції за
+                                конкурентоспроможними цінами. Перегляньте наш канал Telegram, щоб дізнатися про останні
+                                пропозиції щодо купівлі від наших партнерів, і наша команда експертів допоможе вам
+                                ознайомитися з особливостями та умовами контрактів.
+                            </p>
+                            <p>
+                                Якщо пропозиції на нашому каналі не відповідають вашим вимогам, не соромтеся зв’язатися
+                                з нами, і ми забезпечимо продаж вашої продукції за прийнятною ціною.
+                            </p>
+                            <p>
+                                Натисніть на посилання, щоб продовжити:
+                            </p>
+                            <a href="#!" class="block__social social">
+                                <div class="social__icon">
+                                    <img src="icons/social/telegram.svg" class="img" alt="telegram">
+                                </div>
+                                <p>Закупівля зерна</p>
+                            </a>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/04.png" class="img" alt="grains">
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block__container flex-direction-row-reverse" data-aos="fade-right">
+                        <div class="block__info">
+                            <h3>Сьогодні у продажу:</h3>
+                            <p>
+                                Ознайомтеся з останніми пропозиціями від нашої мережі сільськогосподарських виробників і
+                                переробників на нашому Telegram-каналі. Тут ви знайдете актуальну інформацію про
+                                наявність товару, кількість, якість та умови продажу. Наша досвідчена команда готова
+                                надати поради та відповісти на будь-які ваші запитання. Якщо ви не знайшли підходящу
+                                пропозицію, зверніться до нашого менеджера для оформлення індивідуального замовлення, і
+                                ми допоможемо вам його виконати.
+                            </p>
+                            <p>
+                                Натисніть на посилання, щоб переглянути пропозиції:
+                            </p>
+                            <a href="#!" class="block__social social">
+                                <div class="social__icon">
+                                    <img src="icons/social/telegram.svg" class="img" alt="telegram">
+                                </div>
+                                <p>Продаж зерна</p>
+                            </a>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/05.png" class="img" alt="wheat">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="partners section" id="partners">
+                <div class="block">
+                    <div class="block__container">
+                        <div class="block__title">
+                            <h2>Партнерам</h2>
+                        </div>
+                    </div>
+                    <div class="block__container" data-aos="fade-left">
+                        <div class="block__info">
+                            <p>
+                                Stability Trade вітає співпрацю з усіма підприємствами, як місцевими, так і
+                                міжнародними, які шукають вигідних угод у сільськогосподарському секторі. Співпраця з
+                                нами підвищує ваш успіх, розширюючи сферу діяльності в торгівлі сільськогосподарською
+                                продукцією, охоплюючи операції з країнами ЄС і в усьому світі.
+                            </p>
+                            <p>
+                                Stability Trade прагне допомагати фермерам, трейдерам, переробникам, брокерам та іншим
+                                підприємствам у реалізації їхніх цілей як на внутрішньому, так і на світовому ринках.
+                            </p>
+                            <p>
+                                З питань партнерства зв’яжіться з нами електронною поштою, через месенджер або телефоном
+                                – <a href="#footer">Контакти</a>
+                            </p>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/06.png" class="img" alt="hands">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-us section color-bg-1" id="about-us">
+                <div class="block">
+                    <div class="block__container">
+                        <div class="block__title">
+                            <h2>Про нас</h2>
+                        </div>
+                    </div>
+                    <div class="block__container" data-aos="fade-left">
+                        <div class="block__info">
+                            <p>
+                                «Стабільність Трейд» — це брокерська фірма, яка займається укладанням найвигідніших
+                                контрактів на купівлю-продаж сільськогосподарської продукції як в Україні, так і за
+                                кордоном. Ми пропонуємо комплексні послуги та укладаємо найкращі угоди, сприяючи
+                                прибутковості вашого підприємства. Наша співпраця поширюється на трейдерів, аграріїв,
+                                переробників і посередників, забезпечуючи взаємовигідні контракти. Задоволення клієнтів
+                                є нашою головною метою, і наша команда спеціалістів прагне ефективно задовольнити ваші
+                                вимоги. Партнерство з Stability Trade Ukraine прокладає шлях до вашого успіху!
+                            </p>
+                        </div>
+                        <div class="block__img">
+                            <img src="img/07.png" class="img" alt="team">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="quote section">
+                <div class="block">
+                    <div class="block__container">
+                        <div class="quote__info block__info">
+                            <p>
+                                Співпраця з Stability Trade обіцяє успіх і позитивний досвід. Ми гарантуємо вигідні
+                                угоди, ефективне виконання замовлень та професійне ставлення до кожного співробітника.
+                                Виберіть Stability Trade, щоб забезпечити вигідні угоди та розширити свої комерційні
+                                перспективи.
+                            </p>
+                            <div class="block__img-bg">
+                                <img src="icons/commas.png" class="img" alt="commas">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2543.7089804455027!2d30.46162547605675!3d50.39062339167032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c91f8b17c85b%3A0x4b03b4dc93fb0666!2z0LLRg9C70LjRhtGPINCh0YLQtdC_0LDQvdCwINCg0YPQtNC90LjRhtGM0LrQvtCz0L4sIDLQsSwg0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1703261838853!5m2!1sru!2sua"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </main>
+
+        <footer class="footer" id="footer">
+            <div class="footer__container">
+                <div class="footer__items footer__desk">
+                    <div class="footer__item">
+                        <div class="footer__logo">
+                            <img src="icons/logo.png" class="img" alt="logo">
+                        </div>
+                        <h4>СЛІДКУЙТЕ ЗА НАМИ</h4>
+                        <a href="#!" class="footer__social block__social social">
+                            <div class="footer__social-icon social__icon">
+                                <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_4_2)">
+                                        <path
+                                            d="M69.2932 120V65.2664H87.6576L90.4129 43.9294H69.2932V30.3088C69.2932 24.1332 71.0011 19.9246 79.867 19.9246L91.1562 19.9199V0.83538C89.2039 0.581672 82.5023 0 74.7023 0C58.4147 0 47.2639 9.94179 47.2639 28.1956V43.9294H28.8438V65.2664H47.2639V120H69.2932Z"
+                                            fill="#010002" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <p>Наш Facebook</p>
+                        </a>
+                    </div>
+                    <div class="footer__item">
+                        <h4>МЕНЮ САЙТУ</h4>
+                        <ul class="links">
+                            <li>
+                                <a href="#about-us" class="link">Про нас</a>
+                                <div class="decor-line"></div>
+                            </li>
+                            <li>
+                                <a href="#services" class="link">Наші Послуги</a>
+                                <div class="decor-line"></div>
+                            </li>
+                            <li>
+                                <a href="#offer" class="link">Пропозиції сьогодні</a>
+                                <div class="decor-line"></div>
+                            </li>
+                            <li>
+                                <a href="#partners" class="link">Партнерам</a>
+                                <div class="decor-line"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <h4>Контакти</h4>
+                        <div class="footer__label">Телефони:</div>
+                        <ul class="footer__links links">
+                            <li>
+                                <a href="tel:380000000000">+38 (000) 000 00 00</a>
+                                <div class="decor-line"></div>
+                                <div class="footer__icon">
+                                    <img src="icons/phone.svg" class="img" alt="phone">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="tel:380000000000">+38 (000) 000 00 00</a>
+                                <div class="decor-line"></div>
+                                <div class="footer__icon">
+                                    <img src="icons/phone.svg" class="img" alt="phone">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="tel:380000000000">+38 (000) 000 00 00</a>
+                                <div class="decor-line"></div>
+                                <div class="footer__icon">
+                                    <img src="icons/phone.svg" class="img" alt="phone">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer__label">Електронна скринька:</div>
+                        <ul class="footer__links links">
+                            <li>
+                                <a href="mailto:info@example.com">info@example.com</a>
+                                <div class="decor-line"></div>
+                                <div class="footer__icon">
+                                    <img src="icons/email.svg" class="img" alt="email">
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="footer__label">Адреса офісу:</div>
+                        <ul class="footer__links links">
+                            <li>
+                                <a href="#!">Aur Adress</a>
+                                <div class="decor-line"></div>
+                                <div class="footer__icon">
+                                    <img src="icons/geo.svg" class="img" alt="geo">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__mob">
+                    <div id="accordion" class="footer__accordion accordion">
+                        <div class="footer__item accordion__item">
+                            <h4 class="accordion__header">
+                                Контакти
+                            </h4>
+                            <div class="accordion__body">
+                                <div class="accordion__content">
+                                    <div class="footer__label">Телефони:</div>
+                                    <ul class="footer__links links">
+                                        <li>
+                                            <a href="tel:380000000000">+38 (000) 000 00 00</a>
+                                            <div class="decor-line"></div>
+                                            <div class="footer__icon">
+                                                <img src="icons/phone.svg" class="img" alt="phone">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="tel:380000000000">+38 (000) 000 00 00</a>
+                                            <div class="decor-line"></div>
+                                            <div class="footer__icon">
+                                                <img src="icons/phone.svg" class="img" alt="phone">
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="tel:380000000000">+38 (000) 000 00 00</a>
+                                            <div class="decor-line"></div>
+                                            <div class="footer__icon">
+                                                <img src="icons/phone.svg" class="img" alt="phone">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="footer__label">Електронна скринька:</div>
+                                    <ul class="footer__links links">
+                                        <li>
+                                            <a href="mailto:info@example.com">info@example.com</a>
+                                            <div class="decor-line"></div>
+                                            <div class="footer__icon">
+                                                <img src="icons/email.svg" class="img" alt="email">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="footer__label">Адреса офісу:</div>
+                                    <ul class="footer__links links">
+                                        <li>
+                                            <a href="#!" class="text-1">Aur Adress</a>
+                                            <div class="decor-line"></div>
+                                            <div class="footer__icon">
+                                                <img src="icons/geo.svg" class="img" alt="geo">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__item accordion__item">
+                            <h4 class="accordion__header">
+                                МЕНЮ САЙТУ
+                            </h4>
+                            <div class="accordion__body">
+                                <div class="accordion__content">
+                                    <ul class="links">
+                                        <li>
+                                            <a href="#about-us" class="link">Про нас</a>
+                                            <div class="decor-line"></div>
+                                        </li>
+                                        <li>
+                                            <a href="#services" class="link">Наші Послуги</a>
+                                            <div class="decor-line"></div>
+                                        </li>
+                                        <li>
+                                            <a href="#offer" class="link">Пропозиції сьогодні</a>
+                                            <div class="decor-line"></div>
+                                        </li>
+                                        <li>
+                                            <a href="#partners" class="link">Партнерам</a>
+                                            <div class="decor-line"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__item accordion__item">
+                            <h4 class="accordion__header">
+                                СЛІДКУЙТЕ ЗА НАМИ
+                            </h4>
+                            <div class="accordion__body">
+                                <div class="accordion__content">
+                                    <a href="#!" class="footer__social block__social social">
+                                        <div class="footer__social-icon social__icon">
+                                            <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_4_2)">
+                                                    <path
+                                                        d="M69.2932 120V65.2664H87.6576L90.4129 43.9294H69.2932V30.3088C69.2932 24.1332 71.0011 19.9246 79.867 19.9246L91.1562 19.9199V0.83538C89.2039 0.581672 82.5023 0 74.7023 0C58.4147 0 47.2639 9.94179 47.2639 28.1956V43.9294H28.8438V65.2664H47.2639V120H69.2932Z"
+                                                        fill="#010002" />
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <p>Наш Facebook</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copy">
+                    <p>&copy; 2023 Всі права захищені.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#header" class="up up_hide">
+        <img src="icons/arrow.svg" class="img" alt="arrow">
+    </a>
+
+    <script src="js/accordion.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
