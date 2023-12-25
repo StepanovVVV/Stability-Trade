@@ -688,6 +688,12 @@ body {
   top: -0.5rem !important;
 }
 
+@media only screen and (max-width: 1198.98px) {
+  .btn-contac {
+    top: -0.5rem !important;
+  }
+}
+
 .subtitle {
   color: #000 !important;
   font-size: 2.4rem !important;
