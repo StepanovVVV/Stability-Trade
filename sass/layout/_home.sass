@@ -1,0 +1,39 @@
+.home
+    padding: 200px 20px
+    position: relative
+    margin-top: 10rem
+    &__container
+        @include respond(tab-land)
+            max-width: 99.2rem
+        @include respond(tab-port)
+            max-width: 76.8rem
+        @include respond(tablet)
+            max-width: 48rem
+        @include respond(phone)
+            padding: 4.5rem 0 12rem
+        h1
+            font-size: $fs-9
+            font-weight: 700
+            color: $color-5
+            @include respond(tab-port)
+                font-size: $fs-12
+        >p
+            font-size: $fs-6
+            font-weight: 600
+            color: $color-5
+            margin-top: 3rem
+            @include respond(tab-port)
+                font-size: $fs-11
+    &__btns
+        margin-top: 3rem
+    &__links
+        width: max-content
+        @include style-flex
+        gap: 4rem
+        margin-top: 3rem
+        @include respond(big-phone)
+            gap: 2rem 1rem
+        @include respond(phone)
+            flex-direction: column
+        @include respond(phone-small)
+            width: 100%

@@ -1,0 +1,85 @@
+.block
+    &__container
+        @include style-flex
+        justify-content: center
+        @include respond(tab-port)
+            flex-direction: column
+            gap: 2rem
+    &__title
+        @include style-flex
+        justify-content: flex-start
+        width: 100%
+        @include respond(tab-land)
+            max-width: 90rem
+        h2
+            font-size: $fs-10
+            font-weight: 600
+            position: relative
+            &::after
+                position: absolute
+                content: ""
+                left: 0
+                bottom: -1.5rem
+                width: 8.5rem
+                height: .3rem
+                background-color: $color-7
+    &__info
+        padding: 7rem 6rem
+        max-width: 74rem
+        width: 100%
+        position: relative
+        @include respond(tab-land)
+            max-width: 53.2rem
+        @include respond(tab-port)
+            max-width: 70.8rem
+            margin-top: 5.5rem
+            padding: 0
+        @include respond(tablet)
+            max-width: 42rem
+        @include respond(phone)
+            max-width: 31.5rem
+        @include respond(phone-middle)
+            max-width: 100%
+        h3
+            font-size: $fs-7
+            font-weight: 600
+        >p
+            margin-top: 2rem
+            text-align: justify
+            a
+                font-size: $fs-4
+                font-weight: 700
+                color: $color-7
+                text-decoration: underline
+        >p+p
+            margin-top: 1.6rem
+    &__img
+        max-width: 40rem
+        width: 100%
+        @include respond(tab-port)
+            max-width: 60rem
+        @include respond(tablet)
+            max-width: 42rem
+        @include respond(phone)
+            max-width: 31.5rem
+        @include respond(phone-middle)
+            max-width: 23rem
+    &__social
+        margin-top: 1.6rem
+    &__img-bg
+        max-width: 31.1rem
+        width: 100%
+        position: absolute
+        right: 0
+        top: 50%
+        transform: translateY(-50%)
+        z-index: -1
+        @include respond(tab-port)
+            max-width: 19.1rem
+            right: 8rem
+        @include respond(tablet)
+            max-width: 27.1rem
+            right: 0
+        @include respond(tablet)
+            max-width: 31.1rem
+            right: 0

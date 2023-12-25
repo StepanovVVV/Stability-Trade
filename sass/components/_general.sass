@@ -1,0 +1,102 @@
+.video-bg
+    background-color: $color-3
+    width: 100%
+    height: 100%
+    left: 0
+    position: absolute
+    top: 0
+    z-index: -1
+    video
+        height: 100%
+        object-fit: cover
+        width: 100%
+
+.section
+    padding: 10rem 0
+    @include respond(tab-port)
+        @include style-flex
+        justify-content: center
+        flex-direction: column
+        gap: 4rem
+
+.quote
+    @include respond(tab-port)
+        padding: 4.5rem 3rem
+    &__info
+        padding: 0
+        margin: 0
+        p
+            margin: 0
+            text-align: center
+
+.map
+    iframe
+        width: 100%
+        height: 60rem
+
+.language
+    @include respond(tab-land)
+        position: relative
+        left: 20rem
+    @include respond(tab-port)
+        left: 10rem
+    @include respond(phone)
+        left: 5rem
+    @include respond(phone-small)
+        left: 3rem
+    li
+        text-align: center
+    li:not(:last-child)
+        border-bottom: .1rem solid $color-3
+    a
+        @include style-flex
+        justify-content: center
+        color: $color-5
+        cursor: pointer
+        padding: .4rem .8rem
+        transition: all .5s ease 0s
+        position: relative
+        z-index: 3
+    &__btn-1
+        opacity: 1
+        scale: 1.1
+    &__btn-2
+        opacity: .7
+        scale: .9
+    &__ukr-1
+        opacity: .7
+        scale: .9
+    &__ukr-2
+        opacity: 1
+        scale: 1.1
+
+.control
+    @include style-flex
+    width: 100%
+    height: 4rem
+    margin-top: 2rem
+    border-bottom-left-radius: 5rem
+    a
+        display: flex
+        padding: 0 !important
+        margin: 0 !important
+        width: 50%
+        text-align: center
+        height: 100%
+        border-bottom-left-radius: 5rem
+    &__icon
+        width: 2.5rem
+        height: 2.5rem
+        margin: 0 auto
+    >div
+        width: 50%
+        text-align: center
+        align-items: center
+        background-color: $color-7
+        border: 0
+        color: $color-5
+        display: flex
+        justify-content: center
+        text-align: center
+        height: 100%
+

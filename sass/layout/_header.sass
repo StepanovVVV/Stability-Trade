@@ -1,0 +1,135 @@
+.header
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    z-index: 4
+    background-color: $color-2
+    height: 12.3rem
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    @include respond(tab-land)
+        padding: 2rem 0
+        background-color: $color-2
+        z-index: 2
+        height: 10.4rem
+    &__container
+        @include style-flex
+        position: relative
+        height: 100%
+        @include respond(tab-port)
+            max-width: 76.8rem
+        @include respond(tablet)
+            max-width: 48rem
+        @include respond(phone)
+            max-width: 37.5rem
+    &__logo
+        max-width: 5.043rem
+        width: 100%
+    &__menu
+        @include style-flex
+        justify-content: flex-end
+        max-width: 100%
+        width: 100%
+        @include respond(flipped-over)
+            height: 100vh
+        @include respond(tab-land)
+            flex-direction: column
+            justify-content: flex-start
+            position: fixed
+            max-width: 34rem !important
+            overflow-y: scroll
+            top: 0
+            right: -100%
+            background-color: $color-5
+            z-index: 3
+            overflow-x: scroll
+            transition: all .3s ease 0s
+            padding-top: 1.5rem
+            border-bottom-left-radius: 5rem
+        &.active
+            right: 0
+            z-index: 4
+        nav
+            @include style-flex
+            max-width: 90rem
+            width: 100%
+            @include respond(tab-land)
+                max-width: 100%
+            ul
+                @include style-flex
+                @include respond(tab-land)
+                    flex-direction: column
+                    align-items: flex-start
+                    width: 100%
+                li
+                    position: relative
+                    overflow: hidden
+                li .decor-line
+                    bottom: 5rem
+                    @include respond(tab-land)
+                        display: none
+                >li+li
+                    margin-left: 3rem
+                    @include respond(tab-land)
+                        margin-left: 0
+                a
+                    align-items: center
+                    color: $color-5
+                    font-size: $fs-5
+                    position: relative
+                    transition: all .3s ease 0s
+                    z-index: 1
+                    padding: 5rem 0
+                    display: flex
+                    @include respond(tab-land)
+                        font-size: $fs-3
+                        color: $color-1
+                        padding: 1.2rem 1.4rem
+                        margin-left: 1.5rem
+                    
+    &__contact
+        @include respond(tab-land)
+            position: fixed
+            top: 0
+            left: 30rem
+        @include respond(tab-port)
+            display: none !important
+    &__btn
+        a
+            color: $color-9 !important
+            max-width: 100%
+            width: 100%
+    &__links-2
+        a
+            margin-left: 0 !important
+    &__burger-menu
+        display: none
+        @include respond(tab-land)
+            display: block
+            position: relative
+            width: 3rem
+            height: 2.7rem
+            cursor: pointer
+            order: 1
+            z-index: 3
+            span
+                position: absolute
+                display: block
+                width: 100%
+                height: .4rem
+                background-color: $color-5
+                transition: all .3s ease 0s
+                left: 0
+            span:nth-child(1)
+                top: 0
+            span:nth-child(2)
+                top: 50%
+                transform: translateY(-50%)
+            span:nth-child(3)
+                top: auto
+                bottom: 0
+    &__burger-menu.active
+        z-index: 1
